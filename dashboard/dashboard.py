@@ -5,8 +5,8 @@ import seaborn as sns
 
 # Load data
 def load_data():
-    data_dongsi = pd.read_csv('data/data_1.csv')
-    data_dingling = pd.read_csv('data/data_2.csv')
+    data_dongsi = pd.read_csv('data/PRSA_Data_Dongsi_20130301-20170228.csv')
+    data_dingling = pd.read_csv('data/PRSA_Data_Dingling_20130301-20170228.csv')
     return data_dongsi, data_dingling
 
 # Main dashboard
